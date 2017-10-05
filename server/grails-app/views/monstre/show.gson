@@ -1,0 +1,7 @@
+import tutorielheroes.Monstre
+
+model {
+	Monstre monstre
+}
+
+json tmpl.monstre(monstre)

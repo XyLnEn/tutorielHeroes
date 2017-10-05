@@ -1,0 +1,7 @@
+import tutorielheroes.Monstre
+
+model {
+	Monstre monstre
+}
+
+json g.render(monstre, [resolveTemplate: false])

@@ -1,0 +1,7 @@
+import tutorielheroes.Stats
+
+model {
+	Stats stats
+}
+
+json tmpl.stats(stats)

@@ -1,0 +1,7 @@
+import tutorielheroes.Stats
+
+model {
+	Stats stats
+}
+
+json g.render(stats, [resolveTemplate: false])

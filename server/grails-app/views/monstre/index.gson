@@ -1,0 +1,8 @@
+import tutorielheroes.Monstre
+
+model {
+	Iterable<Monstre> monstreList
+}
+
+json tmpl.monstre(monstreList ?: [])
+

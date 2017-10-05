@@ -1,0 +1,8 @@
+import tutorielheroes.Stats
+
+model {
+	Iterable<Stats> statsList
+}
+
+json tmpl.stats(statsList ?: [])
+

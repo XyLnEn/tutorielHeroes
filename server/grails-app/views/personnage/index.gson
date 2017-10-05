@@ -1,0 +1,8 @@
+import tutorielheroes.Personnage
+
+model {
+	Iterable<Personnage> personnageList
+}
+
+json tmpl.personnage(personnageList ?: [])
+

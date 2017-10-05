@@ -1,0 +1,7 @@
+import tutorielheroes.Personnage
+
+model {
+	Personnage personnage
+}
+
+json g.render(personnage, [resolveTemplate: false])

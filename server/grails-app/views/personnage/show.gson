@@ -1,0 +1,7 @@
+import tutorielheroes.Personnage
+
+model {
+	Personnage personnage
+}
+
+json tmpl.personnage(personnage)
